@@ -1,0 +1,127 @@
+body
+{
+    background:  rgb(31, 35, 40);
+    font-family: sans-serif;
+    color: #ccc;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+header 
+{
+    background:#111;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 0.3vh;
+    align-items: center;
+    font-size: 1.09em;
+}
+
+.logo img
+{
+    width: 50px;
+    padding-right: 20px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+header a:hover
+{
+    color: #1f883d;
+}
+nav a
+{
+    font-weight: 600;
+    margin-right:45px;
+    
+}
+
+@media (max-width:680px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    nav
+    {
+        padding:15x 0px;
+    }
+    footer 
+    {
+      justify-content: space-between;
+      padding: 5px;
+    }
+}
+
+header a
+{
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+
+.nada
+{
+    padding: 50px;
+    
+
+}
+
+.ball {
+    margin-top: 50px; 
+    
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(30px);
+    }
+    to {
+      transform: translateY(-30px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  .ball {
+    margin-top: 50px;
+    text-align: center;
+  
+  }
+  
+  .ste
+  {
+    display: flex;
+    justify-content:center;
+    padding: 28vh;
+    color: #1f883d;
+  }
+ 
+
+span 
+{
+  color: transparent;
+
+}
+
+footer
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+  
+}
+

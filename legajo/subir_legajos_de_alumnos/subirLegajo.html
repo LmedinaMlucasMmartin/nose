@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="legajo.css">
+    <link rel="shortcut icon" href="../fotos/logo.png" type="image/x-icon">
+    <title>E.E.T.N.1°</title>
+</head>
+<body>
+    
+    <div class="box">
+        <span class="boxLine"></span>
+        <form  method="post" action="subirlegajo.php">
+          <div class="contenedor">
+            <div class="inputBox">
+                <input type="number" name="dni" required>
+                <span>DNI</span>
+                <i></i>
+            </div>
+            <div class="iman">
+                <img src="../fotos/logo.png" alt="">
+            </div>
+            <div class="inputBox">
+                <input type="text" name="apellido" required>
+                <span>Apellido</span>
+                <i></i>
+            </div>     
+        </div>
+        <div class="contenedor">
+            <div class="inputBox">
+                <input type="text" name="nombre" required>
+                <span>Nombre</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="numerolegajo" required>
+                <span>N°legajo</span>
+                <i></i>
+            </div>     
+        </div>
+        <div class="contenedor">
+            <div class="inputBox">
+                <select name="secundario" id="" class="select">
+                    <option >secundario</option>
+                    <option name="secundario">C.S</option>
+                    <option name="secundario">C.B</option>
+                </select>
+            </div>
+            <div class="inputBox">
+                <select name="entregado" id="" class="select">
+                    <option value="">¿Se entrego titulo?</option>
+                    <option name="entregado">SI</option>
+                    <option name="entregado">NO</option>
+                </select>
+            </div>     
+        </div>
+        <div class="contenedor">
+            <div class="inputBox">
+                <select name="pase" id="" class="select">
+                    <option >¿Pidio pase?</option>
+                    <option name="pase">SI</option>
+                    <option name="pase">NO</option>
+                </select>
+            </div>
+                 <div class="inputBox">
+                    
+                    <select name="escuela" id="" class="select">
+                    <option value="">Escuela</option>
+                    <option name="escuela">Vino</option>
+                    <option name="escuela">Se fue</option>
+                    </select>
+                 </div>
+        </div>
+        <div class="contenedor">
+            <div class="inputBox">
+                <select name="cursospracticos" required>
+                    <option name="none">Cursos Practicos</option>
+                    <option name="cursospracticos">Marroqueneria</option>
+                    <option name="cursospracticos">Peluqueria</option>
+                    <option name="cursospracticos">Mecanografia</option>
+                    <option name="cursospracticos">Impresion 3D</option>
+                    <option name="cursospracticos">Cocina</option>
+                    <option name="cursospracticos">Corte Confección</option>
+                </select>
+            </div>
+        </div>
+            <div class="enlaces">
+                <button type="submit" name="register">Agregar</button>
+                <a href="../tabla/legajo.php">Volver</a>
+            </div>
+        </form>
+    </div>
+<a href="3_botones/inicio.html"></a>
+
+</body>
+</html>

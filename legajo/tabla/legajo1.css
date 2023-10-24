@@ -1,0 +1,146 @@
+body
+{
+    background:  rgb(31, 35, 40);
+    font-family: sans-serif;
+    color: #ccc;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+
+
+.users-table table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: 600;
+}
+
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+    font-weight: 700;
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+.h1 
+{
+    text-align: center;
+    color: #1f883d;
+    
+}
+
+.users-table--edit 
+{
+    text-decoration: none;
+    align-items: center;
+    color: #1f883d;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.users-table--edit:hover
+{
+    opacity: 0.80;
+    transition: -2s;
+    font-size: 15px;
+}
+
+.users-table--delete
+{
+    text-decoration: none;
+    align-items: center;
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.users-table--delete:hover
+{
+    opacity: 0.80;
+    transition: -2s;
+    font-size: 15px;
+}
+
+
+.nuevoLegajo
+{
+    display: flex;
+    padding-left: 15px;
+    padding: 10px;
+    background-color:#ccccccd8 ;
+    height: 20px;
+    width: 100px;
+    border-radius: 15px;
+    border-bottom-left-radius: none ;
+    align-items: center;
+    
+    
+}
+
+.nuevoLegajo a 
+{
+    text-decoration:none ;
+    color: black;
+    font-weight: 600;
+    align-items: center;
+    
+}
+
+.conteiner
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navegante a
+{
+    text-decoration:none ;
+    color: black;
+    font-weight: 600;
+    align-items: center;
+    
+}
+
+.navegante
+{
+    display: flex;
+    padding-left: 15px;
+    padding: 10px;
+    background-color:#ccccccd8 ;
+    height: 20px;
+    width: 100px;
+    border-radius: 15px;
+    border-bottom-left-radius: none ;
+    justify-content: center;
+}
+
+.navegante:hover
+{
+    background: aqua;
+}
+
+.nuevoLegajo:hover
+{
+    background: aqua;
+}
+
